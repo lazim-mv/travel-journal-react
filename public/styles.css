@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 550px;
+}
+
+section{
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+/* .App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.header{
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F55A5A;
+}
+
+.headerText{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+}
+
+.hero{
+    display: flex;
+    gap: 19px;
+    padding-top: 45px;
+}
+
+.image{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.country-container{
+    display: flex;
+    gap: 12px;
+}
+
+.japan{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+
+    color: #2B283A;
+}
+
+.google{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+
+    color: #918E9B;
+}
+
+.title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    margin-top: 4px;
+}
+
+.date{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+
+    color: #2B283A;
+    margin-top: 25px;
+}
+
+.article{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+
+    color: #2B283A;
+    margin-top: 9px;
+}
